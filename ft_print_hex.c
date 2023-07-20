@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 11:45:31 by isromero          #+#    #+#             */
-/*   Updated: 2022/10/20 11:58:09 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/20 13:25:38 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ int	ft_print_x_up(unsigned int n)
 {
 	char	str;
 
-	if (n >= 0 && n <= 9)
+	if (n <= 9)
 	{
 		str = n + '0';
 		write(1, &str, 1);
